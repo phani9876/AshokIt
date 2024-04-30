@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: Phani@999
+    url: jdbc:mysql://localhost/ashokit
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
